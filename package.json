@@ -21,7 +21,8 @@
   "dependencies": {
     "lodash": "4.x.x",
     "strapi": "3.0.0-alpha.13.0.1",
-    "strapi-hook-mongoose": "3.0.0-alpha.13.0.1"
+    "strapi-hook-mongoose": "3.0.0-alpha.13.0.1",
+    "strapi-upload-oss": "^1.0.0"
   },
   "author": {
     "name": "root",
