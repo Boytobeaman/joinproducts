@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/commonproduct",
+      "handler": "Commonproduct.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/commonproduct/count",
+      "handler": "Commonproduct.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/commonproduct/:_id",
+      "handler": "Commonproduct.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/commonproduct",
+      "handler": "Commonproduct.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/commonproduct/:_id",
+      "handler": "Commonproduct.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/commonproduct/:_id",
+      "handler": "Commonproduct.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "commonproduct",
+    "description": "common product"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "external_long": {
+      "type": "string"
+    },
+    "external_width": {
+      "type": "string"
+    },
+    "external_height": {
+      "type": "string"
+    },
+    "internal_long": {
+      "type": "string"
+    },
+    "internal_width": {
+      "type": "string"
+    },
+    "internal_height": {
+      "type": "string"
+    },
+    "folded_height": {
+      "type": "string"
+    },
+    "volumn": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

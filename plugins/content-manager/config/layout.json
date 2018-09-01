@@ -1,0 +1,72 @@
+{
+  "book": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "desc": {
+        "appearance": ""
+      },
+      "json": {
+        "appearance": ""
+      }
+    }
+  },
+  "books": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "desc": {
+        "appearance": ""
+      }
+    }
+  },
+  "commonProduct": {
+    "attributes": {
+      "category": {
+        "appearance": ""
+      },
+      "source": {
+        "appearance": ""
+      },
+      "model": {
+        "appearance": ""
+      },
+      "external_long": {
+        "appearance": ""
+      },
+      "external_width": {
+        "appearance": ""
+      },
+      "external_height": {
+        "appearance": ""
+      },
+      "internal_long": {
+        "appearance": ""
+      },
+      "internal_width": {
+        "appearance": ""
+      },
+      "internal_height": {
+        "appearance": ""
+      },
+      "folded_height": {
+        "appearance": ""
+      },
+      "volumn": {
+        "appearance": ""
+      },
+      "weight": {
+        "appearance": ""
+      }
+    }
+  },
+  "test": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  }
+}
